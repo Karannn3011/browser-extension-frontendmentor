@@ -12,30 +12,38 @@
 
 </head>
 
-<body class="font-noto bg-gradient-to-b from-[#EBF2FC] to-[#EEF8F9] dark:bg-gradient-to-b dark:from-[#040918] dark:to-[#091540] ">
-    <header class="w-[90%] bg-white mx-auto my-4 py-4 px-2 rounded-xl flex flex-row justify-between dark:bg-[rgba(138,143,221,0.4)]">
-        <img src="assets/images/logo.svg" class="dark:invert dark:contrast-200" alt="Extensions logo">
-        <img class="bg-neutral-200 p-3 rounded-xl dark:bg-[rgba(22,23,39,0.5)] dark:invert dark:contrast-200" src="assets/images/icon-moon.svg" id="toggleMode" alt="Night Mode">
+<body
+    class="font-noto bg-gradient-to-b from-[#EBF2FC] to-[#EEF8F9] dark:bg-gradient-to-b dark:from-[#040918] dark:to-[#091540] min-h-[100vh]">
+    <header
+        class="w-[90%] shadow-md bg-white mx-auto my-4 py-4 px-2 rounded-xl flex flex-row justify-between dark:bg-[rgba(138,143,221,0.4)] lg:w-[80%]">
+        <img src="assets/images/logo.svg" class="dark:invert dark:contrast-200 " alt="Extensions logo">
+        <img class="bg-neutral-200 p-3 rounded-xl dark:bg-[rgba(22,23,39,0.5)] cursor-pointer dark:invert dark:contrast-200"
+            src="assets/images/icon-moon.svg" id="toggleMode" alt="Night Mode">
     </header>
+    <div class="lg:flex lg:justify-between lg:w-[80%] lg:mx-auto">
+        <h1 class="text-3xl my-[30px] font-bold text-neutral-800 text-center lg:w-[90%] lg:text-left dark:text-neutral-100">Extensions List</h1>
+        <div class="buttons flex flex-row justify-between w-[80%] mx-auto my-5 lg:w-[50%]">
 
-    <h1 class="text-3xl my-[30px] font-bold text-neutral-800 text-center dark:text-neutral-100">Extensions List</h1>
-    <div class="buttons flex flex-row justify-between w-[80%] mx-auto my-5">
-        <input type="radio" name="sort" id="all" value="all" class="hidden peer/all" checked />
- <label for="all" class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/all:bg-red-400 peer-checked/all:text-white border-[0.1px] border-transparent dark:bg-[rgba(138,143,221,0.5)] dark:text-white dark:border-neutral-300">All</label>
+            <input type="radio" name="sort" id="all" value="all" class="hidden w-0 h-0 peer/all" checked />
+            <label for="all"
+                class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/all:bg-red-400 peer-checked/all:text-white border-[0.1px] border-transparent dark:bg-[rgba(138,143,221,0.5)] dark:text-white dark:border-neutral-300 lg:pb-[0px] lg:px-7 lg:text-xl">All</label>
 
- <input type="radio" name="sort" id="active" value="active" class="hidden peer/active" />
- <label for="active" class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/active:bg-red-400 peer-checked/active:text-white border-[0.1px] border-transparent dark:bg-[rgba(138,143,221,0.5)] dark:text-white dark:border-neutral-300">Active</label>
-  
-   <input type="radio" name="sort" id="inactive" value="inactive" class="hidden peer/inactive"/>
- <label for="inactive" class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/inactive:bg-red-400 peer-checked/inactive:text-white border-[0.1px] border-transparent dark:bg-[rgba(138,143,221,0.5)] dark:text-white dark:border-neutral-300">Inactive</label>
+            <input type="radio" name="sort" id="active" value="active" class="hidden w-0 h-0 peer/active" />
+            <label for="active"
+                class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/active:bg-red-400 peer-checked/active:text-white border-[0.1px] border-transparent dark:bg-[rgba(138,143,221,0.5)] dark:text-white dark:border-neutral-300 lg:pb-[0px] lg:px-7 lg:text-xl">Active</label>
+
+            <input type="radio" name="sort" id="inactive" value="inactive" class="hidden w-0 h-0 peer/inactive" />
+            <label for="inactive"
+                class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/inactive:bg-red-400 peer-checked/inactive:text-white border-[0.1px] border-transparent dark:bg-[rgba(138,143,221,0.5)] dark:text-white dark:border-neutral-300 lg:pb-[0px] lg:px-7 lg:text-xl">Inactive</label>
+        </div>
     </div>
-    <div class="container">
-        
+    <div class="mx-auto container lg:w-[85%] lg:grid lg:grid-cols-3 ">
+
     </div>
-    <!-- <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
-    </div> -->
+    <div class="attribution text-neutral-950 dark:text-white text-center mt-10">
+        Challenge by <a class="font-bold" href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+        Coded by <a class="font-bold" href="https://www.frontendmentor.io/profile/Karannn3011">Karannn3011</a>.
+    </div>
     <script src="script.js"></script>
 </body>
 
