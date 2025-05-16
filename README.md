@@ -39,7 +39,7 @@ Mobile:
 
 ### Links
 
-- Live Site URL: [Here](https://karannn3011.github.io/browser-extensions-manager-frontendmentor)
+- Live Site URL: [Here](https://karannn3011.github.io/browser-extension-frontendmentor)
 
 ## My process
 
