@@ -1,0 +1,34 @@
+{
+  "name": "browser-extensions-manager-ui",
+  "version": "1.0.0",
+  "description": "![Design preview for the Browser extensions manager UI coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "@tailwindcss -i ./input.css -o ./output.css",
+    "watch:css": "@tailwindcss -i ./input.css -o ./output.css --watch",
+    "watch": "npm run watch:css",
+    "dev": "npm run build:css && npm run watch:css",
+    "build": "npm run build:css",
+    "serve": "http-server -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karannn3011/browser-extension-frontendmentor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karannn3011/browser-extension-frontendmentor/issues"
+  },
+  "homepage": "https://github.com/Karannn3011/browser-extension-frontendmentor#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "tailwindcss": "^4.1.7"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.7"
+  }
+}
