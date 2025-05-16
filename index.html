@@ -12,22 +12,22 @@
 
 </head>
 
-<body class="font-noto bg-neutral-200 dark:bg-red-400">
-    <header class="w-[90%] bg-white mx-auto my-4 py-4 px-2 rounded-xl flex flex-row justify-between">
-        <img src="assets/images/logo.svg" alt="Extensions logo">
-        <img class="bg-neutral-200 p-3 rounded-xl" src="assets/images/icon-moon.svg" alt="Night Mode">
+<body class="font-noto bg-gradient-to-b from-[#EBF2FC] to-[#EEF8F9] dark:bg-gradient-to-b dark:from-[#040918] dark:to-[#091540] ">
+    <header class="w-[90%] bg-white mx-auto my-4 py-4 px-2 rounded-xl flex flex-row justify-between dark:bg-[rgba(138,143,221,0.4)]">
+        <img src="assets/images/logo.svg" class="dark:invert dark:contrast-200" alt="Extensions logo">
+        <img class="bg-neutral-200 p-3 rounded-xl dark:bg-[rgba(22,23,39,0.5)] dark:invert dark:contrast-200" src="assets/images/icon-moon.svg" id="toggleMode" alt="Night Mode">
     </header>
 
-    <h1 class="text-3xl my-[30px] font-bold text-neutral-800 text-center">Extensions List</h1>
+    <h1 class="text-3xl my-[30px] font-bold text-neutral-800 text-center dark:text-neutral-100">Extensions List</h1>
     <div class="buttons flex flex-row justify-between w-[80%] mx-auto my-5">
         <input type="radio" name="sort" id="all" value="all" class="hidden peer/all" checked />
- <label for="all" class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/all:bg-red-400 peer-checked/all:text-white">All</label>
+ <label for="all" class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/all:bg-red-400 peer-checked/all:text-white border-[0.1px] border-transparent dark:bg-[rgba(138,143,221,0.5)] dark:text-white dark:border-neutral-300">All</label>
 
  <input type="radio" name="sort" id="active" value="active" class="hidden peer/active" />
- <label for="active" class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/active:bg-red-400 peer-checked/active:text-white">Active</label>
+ <label for="active" class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/active:bg-red-400 peer-checked/active:text-white border-[0.1px] border-transparent dark:bg-[rgba(138,143,221,0.5)] dark:text-white dark:border-neutral-300">Active</label>
   
    <input type="radio" name="sort" id="inactive" value="inactive" class="hidden peer/inactive"/>
- <label for="inactive" class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/inactive:bg-red-400 peer-checked/inactive:text-white">Inactive</label>
+ <label for="inactive" class="cursor-pointer bg-white py-2 px-4 rounded-full peer-checked/inactive:bg-red-400 peer-checked/inactive:text-white border-[0.1px] border-transparent dark:bg-[rgba(138,143,221,0.5)] dark:text-white dark:border-neutral-300">Inactive</label>
     </div>
     <div class="container">
         
